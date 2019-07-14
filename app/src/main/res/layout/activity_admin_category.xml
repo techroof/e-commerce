@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".AdminCategoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/category_toolbar"
+            layout="@layout/navigation_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/add_new_product_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Add new product"
+            android:textColor="#444444"
+            android:textSize="28sp"
+            android:layout_below="@id/category_toolbar"
+            android:layout_centerHorizontal="true"/>
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_new_product_text"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true">
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/t_shirt_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/tshirt"
+                    android:tag="T-Shirt" />
+
+                <ImageView
+                    android:id="@+id/shirt_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/shirt"
+                    android:tag="Shirt" />
+
+                <ImageView
+                    android:id="@+id/ladies_dress_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/ladies_dress"
+                    android:tag="Ladies dress" />
+
+                <ImageView
+                    android:id="@+id/jacket_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/t_shirt_img"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/jacket"
+                    android:tag="Jacket" />
+
+                <ImageView
+                    android:id="@+id/glasses_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/t_shirt_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/glasses"
+                    android:tag="Glasses" />
+
+                <ImageView
+                    android:id="@+id/laptop_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/t_shirt_img"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/laptop"
+                    android:tag="Laptop" />
+
+                <ImageView
+                    android:id="@+id/watch_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/jacket_img"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/watch"
+                    android:tag="Watch" />
+
+                <ImageView
+                    android:id="@+id/purse_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/jacket_img"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/purse"
+                    android:tag="Purse" />
+
+                <ImageView
+                    android:id="@+id/headphone_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/jacket_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/headphone"
+                    android:tag="Headphone" />
+
+                <ImageView
+                    android:id="@+id/hat_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/watch_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/hat"
+                    android:tag="Hat" />
+
+
+                <ImageView
+                    android:id="@+id/shoe_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/watch_img"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/shoe"
+                    android:tag="Shoes" />
+
+                <ImageView
+                    android:id="@+id/phone_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/watch_img"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/mobile"
+                    android:tag="Phone" />
+
+                <ImageView
+                    android:id="@+id/furniture_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/phone_img"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/furniture"
+                    android:tag="Furniture" />
+
+                <ImageView
+                    android:id="@+id/cycle_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/phone_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/cycle"
+                    android:tag="Cycle" />
+
+                <ImageView
+                    android:id="@+id/decoration_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/phone_img"
+                   android:layout_alignParentEnd="true"
+                    android:layout_margin="10dp"
+                    android:onClick="addProduct"
+                    android:src="@drawable/decoration"
+                    android:tag="Decoration"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

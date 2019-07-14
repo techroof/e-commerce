@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/order_product_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shirt" />
+
+    <TextView
+        android:id="@+id/order_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/order_product_img"
+        android:fontFamily="@font/comfortaa"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/order_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_product_name"
+        android:layout_toRightOf="@id/order_product_img"
+        android:text="Quantity:"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/comfortaa"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/order_quantity_num_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_product_name"
+        android:layout_toRightOf="@id/order_product_quantity"
+        android:text="1"
+        android:fontFamily="@font/comfortaa"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/order_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/order_product_img"
+        android:text="Rs. 1540"
+        android:fontFamily="@font/comfortaa"
+        android:textColor="#ff4647"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/order_product_quantity"
+        />
+
+</RelativeLayout>

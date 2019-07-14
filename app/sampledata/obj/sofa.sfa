@@ -1,0 +1,66 @@
+{
+  materials: [
+    {
+      name: 'cushion007Material__2845',
+      parameters: [
+        {
+          baseColor: 'cushion007_DiffuseMap',
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/obj/sofa.obj',
+    name: 'sofa',
+    recenter: 'root',
+    scale: 0.01196,
+  },
+  samplers: [
+    {
+      file: 'sampledata/obj\\cushion007_DiffuseMap.jpg',
+      name: 'cushion007_DiffuseMap',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'cushion007_DiffuseMap.jpg',
+    },
+    {
+      file: 'sampledata/obj\\cushion007_SpecularMap.jpg',
+      name: 'cushion007_SpecularMap',
+      pipeline_name: 'cushion007_SpecularMap.jpg',
+    },
+    {
+      file: 'sampledata/obj\\Map__1507_Normal Bump.png',
+      name: 'Map__1507_Normal Bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Map__1507_Normal Bump.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,46 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Seamed
+Ka 0.000000 0.000000 0.000000
+Kd 0.462745 0.466667 0.447059
+Ks 0.330000 0.330000 0.330000
+map_Kd Metal_Seamed.jpg
+
+newmtl chic196_handle_horizontal1
+Ka 0.000000 0.000000 0.000000
+Kd 0.349020 0.341176 0.313725
+Ks 0.330000 0.330000 0.330000
+map_Kd chic196_handle_horizontal1.jpg
+
+newmtl chic196_top
+Ka 0.000000 0.000000 0.000000
+Kd 0.631373 0.525490 0.392157
+Ks 0.330000 0.330000 0.330000
+map_Kd chic196_top.jpg
+
+newmtl chic196_front
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.486275 0.372549
+Ks 0.330000 0.330000 0.330000
+map_Kd chic196_front.jpg
+
+newmtl chic196_sides
+Ka 0.000000 0.000000 0.000000
+Kd 0.639216 0.533333 0.400000
+Ks 0.330000 0.330000 0.330000
+map_Kd chic196_sides.jpg
+
+newmtl chic196_bottom_plywood1
+Ka 0.000000 0.000000 0.000000
+Kd 0.643137 0.482353 0.364706
+Ks 0.330000 0.330000 0.330000
+map_Kd chic196_bottom_plywood1.jpg
+
+newmtl chic196_back_plywood
+Ka 0.000000 0.000000 0.000000
+Kd 0.611765 0.454902 0.345098
+Ks 0.330000 0.330000 0.330000
+map_Kd chic196_back_plywood.jpg
+

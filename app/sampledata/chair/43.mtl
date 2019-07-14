@@ -1,0 +1,19 @@
+# File produced by AccuTrans 3D
+
+newmtl Craftsman
+  Ns 39.1
+  d 1.0
+  illum 2
+  Kd 0.3647 0.2196 0.149
+  Ka 0.3647 0.2196 0.149
+  Ks 0.898 0.898 0.898
+  map_Kd E:\LEATHE~1.jpg
+
+newmtl Craftsman__1
+  Ns 39.1
+  d 1.0
+  illum 2
+  Kd 0.7294 0.5569 0.3686
+  Ka 0.7294 0.5569 0.3686
+  Ks 0.898 0.898 0.898
+  map_Kd E:\OAK1R(~2.jpg
